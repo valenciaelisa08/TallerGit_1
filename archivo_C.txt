@@ -1,0 +1,6 @@
+create table Programa(
+id_programa number(10),
+nombre_programa varchar2(50),
+id_facultad number(10),
+primary key(id_programa),
+foreign key(id_facultad) references Facultad(id_facultad));
