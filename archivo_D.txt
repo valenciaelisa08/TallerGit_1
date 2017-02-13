@@ -1,0 +1,4 @@
+create table Sede(
+id_sede number(10),
+nombre_sede varchar2(50),
+primary key(id_sede));
