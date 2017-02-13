@@ -1,0 +1,4 @@
+create table Jornada(
+id_jornada number(10),
+nombre_jornada varchar2(50),
+primary key(id_jornada));
