@@ -1,0 +1,4 @@
+create table Facultad(
+id_facultad number(10),
+nombre_facultad varchar2(50),
+primary key(id_facultad));
