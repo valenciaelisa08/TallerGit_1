@@ -1,0 +1,4 @@
+create table Semestre(
+id_semestre number(10),
+nombre_semestre varchar2(50),
+primary key(id_semestre));
